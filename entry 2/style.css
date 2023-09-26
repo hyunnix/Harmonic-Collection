@@ -1,8 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 
+<h1>Hello World!</h1>
 
-
-p {
-    color: beige;
-    font-size: smaller;
+body {
+  background-color: beige;
+  color: beige;
+  font-size: smaller;
 }
-</style>
+
