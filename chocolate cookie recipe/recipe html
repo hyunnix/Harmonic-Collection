@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Dining Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome</h1>
+        <p>Experience exquisite flavors and impeccable service in an elegant setting.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <!-- Menu items go here -->
+    </section>
+
+    <section id="reservations" class="reservations">
+        <h2>Reservations</h2>
+        <p>Book your table for an unforgettable dining experience.</p>
+        <!-- Reservation form goes here -->
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Discover the history and passion behind our fine dining restaurant.</p>
+        <!-- About Us content goes here -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <!-- Contact information and form go here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fine Dining Restaurant</p>
+    </footer>
+</body>
+</html>
+
