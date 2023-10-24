@@ -1,48 +1,46 @@
-/* Reset some default browser styles */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+</style>
+</head>
+<body>
 
-/* Apply a background image to the hero section */
-.hero {
-    background: url('hero-image.jpg') center/cover no-repeat;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
+<header>
+<h1>Chocolate Chip Cookie Recipe</h1>
+</header>
 
-/* Style the navigation menu */
-nav {
-    background: #333;
-    color: #fff;
-    text-align: center;
-}
+<main>
+<div class="image-container">
+<img src="cookie-image.jpg" alt="Chocolate Chip Cookies">
+</div>
 
-nav ul {
-    list-style: none;
-    padding: 20px 0;
-}
+<h2>Ingredients:</h2>
+<ul class="ingredients">
+<li>2 1/4 cups all-purpose flour</li>
+<li>1/2 teaspoon baking soda</li>
+<li>1 cup unsalted butter, at room temperature</li>
+<li>1/2 cup granulated sugar</li>
+<li>1 cup brown sugar</li>
+<li>1 teaspoon salt</li>
+<li>2 teaspoons pure vanilla extract</li>
+<li>2 large eggs</li>
+<li>2 cups chocolate chips</li>
+</ul>
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+<h2>Instructions:</h2>
+<ol class="instructions">
+<li>Preheat your oven to 350°F (175°C).</li>
+<li>In a small bowl, whisk together the flour and baking soda.</li>
+<li>In a large mixing bowl, cream the butter, granulated sugar, and brown sugar
+until smooth.</li>
+<li>Beat in the salt, vanilla extract, and eggs until well combined.</li>
+<li>Gradually mix in the dry ingredients until the dough is formed, then fold in the
+chocolate chips.</li>
+<li>Drop rounded tablespoons of cookie dough onto ungreased baking
+sheets.</li>
+<li>Bake for 10-12 minutes or until the edges are golden but the centers are still
+soft.</li>
+<li>Let the cookies cool on the baking sheets for a few minutes before
+transferring them to wire racks to cool completely.</li>
+</ol>
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Add some basic styling to other sections */
-.menu, .reservations, .about, .contact {
-    padding: 50px;
-}
-
-/* Style the footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+</main>
+</body>
+</html>

@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fine Dining Restaurant</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#reservations">Reservations</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<meta charset="UTF-8">
+<title>Chocolate Chip Cookie Recipe</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;}
 
-    <section id="home" class="hero">
-        <h1>Welcome</h1>
-        <p>Experience exquisite flavors and impeccable service in an elegant setting.</p>
-    </section>
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;}
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Menu items go here -->
-    </section>
+h1 {
+    font-size: 36px;
+}
 
-    <section id="reservations" class="reservations">
-        <h2>Reservations</h2>
-        <p>Book your table for an unforgettable dining experience.</p>
-        <!-- Reservation form goes here -->
-    </section>
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the history and passion behind our fine dining restaurant.</p>
-        <!-- About Us content goes here -->
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact information and form go here -->
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Fine Dining Restaurant</p>
-    </footer>
-</body>
-</html>
-
+h2 {
+    font-size: 24px;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+p {    
+    line-height: 1.6;
+}
+.ingredients {
+    margin-bottom: 20px;
+    }
+.instructions {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    }
+.image-container {
+    text-align: center;
+    }
+img {
+    max-width: 100%;
+    height: auto;
+    }
