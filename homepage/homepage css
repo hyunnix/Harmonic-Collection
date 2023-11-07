@@ -29,6 +29,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #ffecec;
   color: white;
+  align-items: center;
 }
 
 * {
