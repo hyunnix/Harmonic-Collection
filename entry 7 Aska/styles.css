@@ -36,6 +36,13 @@
 }
 
 .section-intro h1 {
+    @font-face {
+        font-family: 'Love';
+        src: url('Love.woff2') format('woff2'),
+             url('Love.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
     text-align: center;
     color: #ffefef;
     font-size: 4em;
@@ -146,18 +153,7 @@ a.link-to-book:hover {
     display: block;
 }
 
-header{
-    padding: 20px;
-    text-align: center;
-    @font-face {
-        font-family: 'Love';
-        src: url('Love.woff2') format('woff2'),
-             url('Love.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    color: #fff0f0;
-}
+
 
 body {
     background-color: rgb(0, 0, 0);
