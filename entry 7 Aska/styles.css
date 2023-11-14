@@ -27,7 +27,7 @@
 
 .section-intro {
     height: 820px;
-    background-color:#000000;
+    background-color: #ffefef;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -118,7 +118,7 @@ a.link-to-book:hover {
 
 .btn.btn-primary {
     font-family: 'Big Shoulders Text', cursive;
-    color: #ffffff;
+    color: #000000;
     background-color: #ffefef;
     text-transform: uppercase;
     font-size: 16px;
