@@ -19,7 +19,7 @@
 
 .nav-flex-row li a {
     font-family: 'Big Shoulders Text', cursive;
-    color: #000000;
+    color: #ffefef;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
@@ -27,7 +27,7 @@
 
 .section-intro {
     height: 820px;
-    background-color:#FFECEC;
+    background-color:#000000;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
 
 .section-intro h1 {
     text-align: center;
-    color: #000000;
+    color: #ffefef;
     font-size: 4em;
     font-weight: 700;
 }
@@ -62,15 +62,15 @@
 }
 
 .link-to-book {
-    color: #000000;
+    color: #ffefef;
     display: block;
-    border: 2px solid #000000;
+    border: 2px solid #ffefef;
     padding: 5px 10px;
 }
 
 a.link-to-book:hover {
     background-color: #ffffff;
-    color: #95999e;
+    color: #ffefef;
     text-decoration: none;
 }
 
@@ -119,7 +119,7 @@ a.link-to-book:hover {
 .btn.btn-primary {
     font-family: 'Big Shoulders Text', cursive;
     color: #ffffff;
-    background-color: #95999e;
+    background-color: #ffefef;
     text-transform: uppercase;
     font-size: 16px;
     padding: 5px 10px;
@@ -128,7 +128,7 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary:hover {
-    background-color: #747474;
+    background-color: #ffefef;
 }
 .opening-time,
 .contact-adress {
