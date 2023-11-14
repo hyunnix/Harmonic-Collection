@@ -146,22 +146,6 @@ a.link-to-book:hover {
     display: block;
 }
 
-header{
-    padding: 20px;
-    text-align: center;
-    @font-face {
-        font-family: 'Love';
-        src: url('Love.woff2') format('woff2'),
-             url('Love.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    color: #000000;
-}
-
-
-
-
 @media (min-width:577px) and (max-width: 800px) {
 
     .section-intro {
