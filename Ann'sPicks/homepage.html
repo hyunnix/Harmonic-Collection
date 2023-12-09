@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>Ann's Pick in NYC</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="homepage">
+    <div class="head">
+        <div class="icon">
+            <span>
+                <img src="images/menu.png" /></span><a href="gallery.html">Gallery</a>
+        </div>
+        <div class="logo">
+            <a href="homepage.html">ANN</a>
+        </div>
+        <div class="contact">
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="lunbo">
+        <div class="slides">
+            <img class="mySlides" src="images/1.png">
+            <img class="mySlides" src="images/1.png">
+            <img class="mySlides" src="images/1.png">
+        </div>
+        <script>
+            var myIndex = 0; carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
+        </script>
+    </div>
+</body>
+</html>

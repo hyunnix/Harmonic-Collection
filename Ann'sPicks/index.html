@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>Ann's Pick in NYC</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="index">
+    <div class="txt">
+        <p id="txt">
+            Ann's Pick in NYC
+        </p>
+        <script>
+            var text = "Ann's Pick in NYC";
+            var end = 1;
+
+            setInterval(changeText, 200);
+
+            function changeText() {
+                document.getElementById("txt").innerText = text.substring(0, end);
+                end++;
+
+                if (end > text.length)
+                    end = text.length;
+            }
+        </script>
+        <div class="opa" id="opa">
+            <p>
+                is a New York restaurant
+            </p>
+            <p>
+                recommendation website.
+            </p>
+            <p>
+                I am a super food lover who enjoys
+            </p>
+            <p>
+                seeking great restaurants in the city.
+            </p>
+            <p>
+                Annie.X
+            </p>
+            <a href="homepage.html">ENTER</a>
+        </div>
+    </div>
+    <script>
+        var lastscrolltop = 100;
+        window.addEventListener("scroll", function () {
+            var scorllTop = window.pageYoffset || document.documentElement.scrollTop;
+            if (scorllTop > lastscrolltop) {
+                document.getElementById("opa").style.opacity = "1";
+            }
+
+            lastscrolltop = scorllTop;
+
+        });
+    
+    
+    </script>
+</body>
+</html>
